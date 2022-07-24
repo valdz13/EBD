@@ -182,8 +182,6 @@ section {
 
 .liveChat {
   position: fixed;
-  visibility: visible;
-  opacity: 1;
   right:15px;
   bottom: 70px;
   z-index: 995;
@@ -191,24 +189,24 @@ section {
   color: white;
   width: 120px;
   height: 40px;
-  border-radius: 4px;
-  transition: all 0.4s;
+  border-radius: 10px;
 
-  i {
-    font-size: 24px;
-    color: var(--color-white);
-    line-height: 0;
-  }
+
+  // i {
+  //   font-size: 24px;
+  //   color: var(--color-white);
+  //   line-height: 0;
+  // }
 
   &:hover  {
-    background: rgba(var(--color-primary-rgb), .85);
+    background: rgba(var(--color-secondary-light), .85);
     color: var(--color-white);
   }
 
-  &.active {
-    visibility: visible;
-    opacity: 1;
-  }
+  // &.active {
+  //   visibility: visible;
+  //   opacity: 1;
+  // }
 
 }
 
