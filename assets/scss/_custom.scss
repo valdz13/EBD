@@ -22,3 +22,13 @@
     }
   
   }
+
+  .btn-apply {
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: 0;
+    background-color: var(--color-primary);
+    &:hover {
+      background-color: rgba(var(--color-primary-rgb), .8);
+    }
+  }
