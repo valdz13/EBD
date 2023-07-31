@@ -1,39 +1,99 @@
 .liveChat {
-    position: fixed;
-    right:15px;
-    bottom: 70px;
-    z-index: 995;
-    background: var(--color-primary);
-    color: white;
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
-  
-  
-    i {
-      font-size: 24px;
-      color: var(--color-white);
-      line-height: 0;
-    }
-  
-    &:hover  {
-      background: rgba(var(--color-secondary-light), .85);
-      color: var(--color-white);
-    }
-  
+  position: fixed;
+  right: 15px;
+  bottom: 70px;
+  z-index: 995;
+  background: var(--color-primary);
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+
+
+  i {
+    font-size: 24px;
+    color: var(--color-white);
+    line-height: 0;
   }
 
-  .btn-apply {
-    border-radius: 4px;
-    padding: 10px 20px;
-    border: 0;
-    background-color: var(--color-primary);
-    &:hover {
-      background-color: rgba(var(--color-primary-rgb), .8);
+  &:hover {
+    background: rgba(var(--color-secondary-light), .85);
+    color: var(--color-white);
+  }
+
+}
+
+.btn-apply {
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: 0;
+  background-color: var(--color-primary);
+
+  &:hover {
+    background-color: rgba(var(--color-primary-rgb), .8);
+  }
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.portfolio-container {
+  .img-value {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .portfolio-info {
+    h4 {
+      padding-right: 0 !important;
     }
   }
+}
 
-  .text-justify{
-    text-align: justify;
+.text-slogan{
+  color: var(--color-primary) !important;
+  span{
+    color: var(--color-orange) !important;
   }
+}
 
+.core{
+  .nav{
+    justify-content: space-around;
+    .nav-link{
+      font-size: 2rem;
+    }
+  }
+  .core-img{
+    margin-bottom: 16px;
+    @media (min-width: 769px) {
+      height: 500px;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+.text-gema{
+  text-align: left;
+}
+@media (min-width: 769px) {
+  .text-gema{
+    text-align: center !important;
+  }
+}
+
+.section-header {
+  h2{
+    font-weight: 800 !important;
+  }
+}
+
+.gema-img{
+  @media (min-width: 769px) {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
