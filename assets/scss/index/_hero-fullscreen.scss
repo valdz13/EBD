@@ -34,7 +34,7 @@
   p {
     color: rgba(var(--color-secondary-rgb), .8);
     margin: 0 0 30px 0;
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 400;
   }
 
@@ -80,10 +80,14 @@
   @media (max-width: 640px) {
     h2 {
       font-size: 36px;
+      span{
+        font-size: 35px;
+      }
     }
 
     p {
-      font-size: 24px;
+      font-size: 32px;
+      font-weight: 300;
       margin-bottom: 30px;
     }
 
