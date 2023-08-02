@@ -56,6 +56,15 @@
   color: var(--color-primary) !important;
   span{
     color: var(--color-orange) !important;
+    
+  }
+  text-align: center;
+}
+
+.text-welcome{
+  color: var(--color-primary) !important;
+  span{
+    color: var(--color-red) !important;
   }
 }
 
