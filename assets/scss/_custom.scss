@@ -1,3 +1,6 @@
+.font-equinor{
+  font-family: var(--font-equinor) !important;
+}
 .liveChat {
   position: fixed;
   right: 15px;
@@ -8,6 +11,7 @@
   width: 120px;
   height: 40px;
   border-radius: 10px;
+  font-family: var(--font-equinor);
 
 
   i {
@@ -53,6 +57,7 @@
 }
 
 .text-slogan{
+  font-family: var(--font-equinor);
   color: var(--color-primary) !important;
   span{
     color: var(--color-orange) !important;
@@ -62,6 +67,7 @@
 }
 
 .text-welcome{
+  font-family: var(--font-equinor) !important;
   color: var(--color-primary) !important;
   span{
     color: var(--color-red) !important;

@@ -47,7 +47,7 @@
     transition: 0.5s;
     color: var(--color-white);
     background: var(--color-primary);
-    font-family: var(--font-secondary);
+    font-family: var(--font-equinor);
     &:hover {
       background:  rgba(var(--color-primary-rgb), .8);
     }
@@ -93,6 +93,7 @@
 
     .btn-get-started, .btn-watch-video {
       font-size: 14px;
+      font-family: var(--font-equinor) !important;
     }
   }
 }
