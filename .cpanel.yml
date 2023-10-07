@@ -3,4 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/u1804944/public_html/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp en.html $DEPLOYPATH
     - /bin/cp -r assets $DEPLOYPATH
